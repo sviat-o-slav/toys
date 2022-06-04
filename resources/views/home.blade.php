@@ -153,9 +153,59 @@
             <h3>About the shop</h3>
             <p>There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad
                 placement, demographic, even the consumer’s mood.</p>
-            
+
             <a href="#"></a>
         </div>
+    </section>
+
+    <section class="more-webflow container-content">
+        <h2>Simple & Colorful Ecommerce<br>Template for Your Business</h2>
+        <p>Made for Webflow</p>
+
+        <div class="more-webflow-block">
+            <div class="more-webflow-info">
+                <h3>Available for FREE!</h3>
+                <span></span>
+                <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing
+                    result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take
+                    action. There is no magic formula to write perfect ad copy</p>
+                <a href="#">Get it now!</a>
+            </div>
+
+            <img src="images/kids.jpg" alt="Kids in super heroes suits">
+        </div>
+    </section>
+
+    <div class="container-content">
+        <section class="subscribe-section">
+            <div class="subscribe-left">
+                <a href="#"><img src="images/telegram.svg" alt="telegram icon"></a>
+                <p>Subscribe to our newslatter<br>& get <span>10% discount!</span></p>
+            </div>
+
+            <div class="subscribe-right">
+                <form method="GET">
+                    <input type="email" placeholder="Enter your e-mail adress" validate>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="elastic-theme-block container-content">
+        <h2>We're on Instagram!</h2>
+        <p>@ElasticThemes</p>
+
+        <div class="elastic-carousel">
+            <img class="elastic-card" src="images/img1.jpg" alt="img1">
+            <img class="elastic-card" src="images/img2.jpg" alt="img2">
+            <img class="elastic-card" src="images/img3.jpg" alt="img3">
+            <img class="elastic-card" src="images/img4.jpg" alt="img4">
+            <img class="elastic-card" src="images/img5.jpg" alt="img5">
+            <img class="elastic-card" src="images/img6.jpg" alt="img6donthaveEnoughtFantasy">
+        </div>
+
+        <a href="">See more photo</a>
     </section>
 
 </body>
