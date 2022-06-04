@@ -1,1 +1,365 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+body {
+  margin: 0;
+  background-color: #F8F8F8;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 11px;
+  min-width: 1240px;
+}
 
+.container-content {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-contacts {
+  background-color: #A5C926;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-contacts {
+  display: flex;
+  padding-left: 15px;
+}
+.nav-contacts .group-contacts {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+  margin-right: auto;
+  font-size: 10px;
+  line-height: 16px;
+}
+.nav-contacts .group-contacts li {
+  color: #FFFFFF;
+}
+.nav-contacts .group-contacts li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.nav-contacts .group-social {
+  display: flex;
+  margin: 2px 12px;
+}
+.nav-contacts .group-social .social-icon {
+  display: block;
+  height: 18px;
+  width: 18px;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav-contacts .group-social .twitter-icon {
+  background-image: url(/images/twitter.svg?4e52dac774e1a740bced87e4dcdcb37f);
+}
+.nav-contacts .group-social .facebook-icon {
+  background-image: url(/images/facebook.svg?7937a2b479149126c3b06b11747f5472);
+}
+.nav-contacts .group-social .instagram-icon {
+  background-image: url(/images/instagram.svg?06990871a160aae3c401562808aa834c);
+}
+.nav-contacts .group-social .pinterest-icon {
+  background-image: url(/images/pinterest.svg?3e55fda4556a08d2e586d9d5cdc82f1b);
+}
+.nav-contacts .group-social .youtube-icon {
+  background-image: url(/images/youtube.svg?e8e07908f021c4acffabdad1a8efbc0e);
+}
+
+.nav-main {
+  display: flex;
+}
+.nav-main a {
+  text-decoration: none;
+}
+
+.nav-main-list {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  flex-grow: 1;
+}
+
+.nav-main-item a {
+  display: block;
+  padding: 12px 18px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #111111;
+}
+
+.nav-item-logo {
+  padding: 20px 15px;
+  font-family: "Varela Round";
+  font-size: 21px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.nav-item-cart {
+  margin-left: auto;
+}
+.nav-item-cart a {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.nav-item-cart .cart-icon {
+  width: 32px;
+  height: 32px;
+  background: url(/images/cart.svg?4a91733f21b56ac06684fe7df6e4096d) no-repeat 50% 50%;
+}
+.nav-item-cart .cart-badge {
+  width: 20px;
+  height: 20px;
+  background-color: #A5C926;
+  border-radius: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.welcome-section {
+  min-height: 640px;
+  background: url(/images/first.jpg?2d32286b7f3100fefd2484af95acf3c2) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.greetings {
+  width: 570px;
+  height: 310px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A5C926;
+}
+.greetings .greetings-button {
+  border-radius: 24px;
+  color: #FFFFFF;
+  background-color: #A5C926;
+  padding: 12px 28px;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.greetings .greetings-text {
+  font-size: 39px;
+  line-height: 48px;
+  color: #111111;
+  margin: 0;
+}
+
+.toys-category {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  height: 460px;
+  align-items: center;
+}
+
+.toys-category-card {
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  flex-grow: 1;
+  height: 190px;
+  border-radius: 10px;
+}
+.toys-category-card img {
+  position: relative;
+  top: -50px;
+  width: 220px;
+  height: 220px;
+}
+.toys-category-card a {
+  padding: 8px 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+  color: #111111;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.toys-category-card h2 {
+  font-family: "Varela Round";
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.card-left {
+  background-color: #FFC12C;
+}
+
+.card-right {
+  background-color: #FB416B;
+  flex-direction: row-reverse;
+}
+.card-right .card-side {
+  align-items: flex-end;
+}
+
+.card-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.toys-carousel-container {
+  height: 590px;
+}
+
+.toys-carousel {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  height: 360px;
+  align-items: center;
+}
+
+.toys-carousel-header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-transform: capitalize;
+}
+.toys-carousel-header h2 {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #111111;
+  margin: 0;
+}
+.toys-carousel-header a {
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #111111;
+  padding: 2px 20px 4px 0;
+  text-decoration: none;
+  border-bottom: 2px solid #DDDDDD;
+  background: url(/images/arrow-right.svg?1667fd203c8678ce3b494f1df5ce0581) no-repeat center right;
+}
+
+.toys-carousel-slider {
+  background-color: #E5E5E5;
+  height: 2px;
+  margin: 40px 0;
+}
+
+.toys-carousel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  height: 330px;
+  width: 270px;
+}
+.toys-carousel-card img {
+  width: 182px;
+  height: 182px;
+  order: -1;
+}
+.toys-carousel-card h2 {
+  font-family: "Varela Round";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #111111;
+  margin-top: 25px;
+  text-transform: capitalize;
+}
+.toys-carousel-card a {
+  font-size: 12px;
+  line-height: 20px;
+  font-style: normal;
+  color: #FFFFFF;
+  background-color: #A5C926;
+  padding: 2px 12px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.our-story-container {
+  display: flex;
+  background: url(/images/second.jpg?724fbd7c40d260b4fb928528935fe6eb) no-repeat;
+  background-size: cover;
+  height: 465px;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  width: 800px;
+}
+.our-story h2 {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 18px 0;
+}
+.our-story h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  order: -1;
+  margin: 0;
+}
+.our-story p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}
+.our-story a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: #A5C926;
+  background-image: url(/images/play.svg?78d6b1afd19e9b57afa9e6c44fdee3cb);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 25px;
+}

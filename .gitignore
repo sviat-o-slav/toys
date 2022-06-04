@@ -22,3 +22,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 .vscode/settings.json
+.vscode/configurationCache.log
+.vscode/targets.log
+.vscode/dryrun.log

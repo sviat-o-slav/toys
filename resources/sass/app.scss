@@ -1,1 +1,417 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+$white: #FFFFFF;
+$lime: #A5C926;
+$background: #F8F8F8;
+$text: #111111;
+
+@mixin font-main {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 11px;
+}
+
+@mixin text-logo {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #333333;
+}
+
+body {
+    margin: 0;
+    background-color: $background;
+    @include font-main;
+    min-width: 1240px;
+}
+
+.container-content {
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-contacts {
+    background-color: $lime;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-contacts {
+    display: flex;
+    padding-left: 15px;
+
+    .group-contacts {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        margin-right: auto;
+        font-size: 10px;
+        line-height: 16px;
+
+        li {
+            color: $white;
+
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+
+    .group-social {
+        display: flex;
+        margin: 2px 12px;
+
+        .social-icon {
+            display: block;
+            height: 18px;
+            width: 18px;
+            padding: 5px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .twitter-icon {
+            background-image: url("../images/twitter.svg");
+        }
+
+        .facebook-icon {
+            background-image: url("../images/facebook.svg");
+        }
+
+        .instagram-icon {
+            background-image: url("../images/instagram.svg");
+        }
+
+        .pinterest-icon {
+            background-image: url("../images/pinterest.svg");
+        }
+
+        .youtube-icon {
+            background-image: url("../images/youtube.svg");
+        }
+    }
+}
+
+.nav-main {
+    display: flex;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.nav-main-list {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    flex-grow: 1;
+}
+
+.nav-main-item {
+    a {
+        display: block;
+        padding: 12px 18px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #111111;
+    }
+}
+
+.nav-item-logo {
+    padding: 20px 15px;
+    font-family: 'Varela Round';
+    font-size: 21px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.nav-item-cart {
+    margin-left: auto;
+
+    a {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .cart-icon {
+        width: 32px;
+        height: 32px;
+        background: url("../images/cart.svg") no-repeat 50% 50%;
+    }
+
+    .cart-badge {
+        width: 20px;
+        height: 20px;
+        background-color: $lime;
+        border-radius: 50%;
+
+        color: $white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.welcome-section {
+    min-height: 640px;
+    background: url("../images/first.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.greetings {
+    width: 570px;
+    height: 310px;
+    background-color: $white;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 16px;
+    color: $lime;
+
+    .greetings-button {
+        border-radius: 24px;
+        color: $white;
+        background-color: $lime;
+        padding: 12px 28px;
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
+    .greetings-text {
+        font-size: 39px;
+        line-height: 48px;
+        color: #111111;
+        margin: 0;
+    }
+}
+
+.toys-category {
+    display: flex;
+    column-gap: 30px;
+    height: 460px;
+    align-items: center;
+}
+
+.toys-category-card {
+    display: flex;
+    column-gap: 25px;
+
+    flex-grow: 1;
+    height: 190px;
+    border-radius: 10px;
+
+    img {
+        position: relative;
+        top: -50px;
+        width: 220px;
+        height: 220px;
+    }
+
+    a {
+        padding: 8px 24px;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 24px;
+        color: #111111;
+        background-color: $white;
+        border-radius: 20px;
+    }
+
+    h2 {
+        font-family: 'Varela Round';
+        font-size: 28px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+}
+
+.card-left {
+    background-color: #FFC12C;
+}
+
+.card-right {
+    background-color: #FB416B;
+    flex-direction: row-reverse;
+
+    .card-side {
+        align-items: flex-end;
+    }
+}
+
+.card-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.toys-carousel-container {
+    height: 590px;
+}
+
+.toys-carousel {
+    display: flex;
+    column-gap: 30px;
+    height: 360px;
+    align-items: center;
+}
+
+.toys-carousel-header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-transform: capitalize;
+
+    h2 {
+        font-family: 'Varela Round';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: $text;
+        margin: 0;
+    }
+
+    a {
+        margin-left: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: $text;
+        padding: 2px 20px 4px 0;
+        text-decoration: none;
+        border-bottom: 2px solid #DDDDDD;
+        background: url("../images/arrow-right.svg") no-repeat center right;
+    }
+}
+
+.toys-carousel-slider {
+    background-color: #E5E5E5;
+    height: 2px;
+    margin: 40px 0;
+}
+
+.toys-carousel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    border-radius: 16px;
+    height: 330px;
+    width: 270px;
+
+    img {
+        width: 182px;
+        height: 182px;
+        order: -1;
+    }
+
+    h2 {
+        font-family: 'Varela Round';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: $text;
+        margin-top: 25px;
+        text-transform: capitalize;
+    }
+
+    a {
+        font-size: 12px;
+        line-height: 20px;
+        font-style: normal;
+        color: $white;
+        background-color: $lime;
+        padding: 2px 12px;
+        border-radius: 16px;
+        text-decoration: none;
+    }
+}
+
+
+.our-story-container {
+    display: flex;
+    background: url("../images/second.jpg") no-repeat;
+    background-size: cover;
+    height: 465px;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-story {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: $white;
+    width: 800px;
+
+    h2 {
+        font-family: 'Varela Round';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        margin: 18px 0;
+    }
+
+    h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        order: -1;
+        margin: 0;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+    }
+
+    a {
+        display: block;
+        width: 64px;
+        height: 64px;
+        background-color: $lime;
+        background-image: url("../images/play.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 25px;
+    }
+}
+
