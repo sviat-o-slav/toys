@@ -208,6 +208,41 @@
         <a href="">See more photo</a>
     </section>
 
+    <footer class="footer">
+        <div class="container-content">
+            <section class="nav-bottom">
+                <a class="nav-bottom-item-logo" href="#">ToyStore</a>
+
+                <ul class="nav-bottom-list">
+                    <li class="nav-bottom-item"><a href="#">Home</a></li>
+                    <li class="nav-bottom-item"><a href="#">Catalog</a></li>
+                    <li class="nav-bottom-item"><a href="#">Delivery</a></li>
+                    <li class="nav-bottom-item"><a href="#">About</a></li>
+                    <li class="nav-bottom-item"><a href="#">Contacts</a></li>
+                </ul>
+
+                <ul class="group-social">
+                    <li><a class="social-icon twitter-icon" href="#"></a></li>
+                    <li><a class="social-icon facebook-icon" href="#"></a></li>
+                    <li><a class="social-icon instagram-icon" href="#"></a></li>
+                    <li><a class="social-icon pinterest-icon" href="#"></a></li>
+                    <li><a class="social-icon youtube-icon" href="#"></a></li>
+                </ul>
+            </section>
+
+            <section>
+                <ul class="copyright-list">
+                    <li><a href="#">Created with love by Elastic Themes</a></li>
+                    <li><a href="#">Powered by Webflow</a></li>
+                    <li><span></span></li>
+                    <li><a href="#">Style Guide</a></li>
+                    <li><span></span></li>
+                    <li><a href="#">Licensing</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
 </body>
 
 </html>
