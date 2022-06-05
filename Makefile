@@ -4,7 +4,7 @@ install-common:
 	cp .env.example .env
 	php artisan key:generate
 
-install-dev: install-common resources-dev sail-install webpack 
+install-dev: install-common resources-dev sail-install webpack
 
 install-prod: install-common resources-prod
 
@@ -37,9 +37,7 @@ watch:
 resources-prod:
 	composer install --no-dev
 	npm install --production
-	
-	php artisan optimize
-	
+
 resources-dev:
 	composer install
 	npm install
