@@ -1,5 +1,5 @@
-# Nerds Web Site Project
-This is a simple site project of UI market place.
+# Toys Web Site Project
+Toys market place.
 ## Technical information
 It is created with Laravel engine.
 ### Requirements for production
